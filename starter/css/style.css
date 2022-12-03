@@ -54,3 +54,49 @@ p {
   max-width: 200px;
   max-height: 225px;
 }
+
+#about {
+  display: flex;
+}
+
+#about p {
+  width: 75%;
+  align-items: align-right;
+  padding-left: 20px;
+}
+
+#work h4 {
+  display: flex;
+}
+
+#experience {
+  margin: 0px 5%;
+  display: grid;
+  cursor: pointer;
+  grid-template-rows: 100px 100px 100px 100px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+  "work1 work2"
+  "work3 work4"
+
+}
+
+#work1 {
+  grid-area: work1;
+  background-image: url("../images/02-portfolio-1.jpg");
+}
+
+#work2 {
+  grid-area: work2;
+  background-image: url("../images/02-portfolio-2.jpg");
+}
+
+#work3 {
+  grid-area: work3;
+  background-image: url("../images/02-portfolio-3.jpg");
+}
+
+#work4 {
+  grid-area: work4;
+  background-image: url("../images/02-portfolio-4.jpg");
+}
