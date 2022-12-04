@@ -158,3 +158,56 @@ p {
 #linked-in {
   grid-area: linked-in;
 }
+
+/* media Queries*/
+
+@media only screen and (max-width: 1000px) {
+  #navigation {
+   display: none;
+  } 
+  .icons {
+   margin-left: auto;
+  }
+ }
+
+ @media only screen and (max-width: 600px) {
+  #experience {
+    position: static;
+    margin: 20px;
+  }
+  #work1 {
+    grid-area: work1;
+    background-image: url("../images/02-portfolio-1.jpg");
+  }
+  
+  #work2 {
+    grid-area: work2;
+    background-image: url("../images/02-portfolio-2.jpg");
+  }
+  
+  #work3 {
+    grid-area: work3;
+    background-image: url("../images/02-portfolio-3.jpg");
+  }
+  
+  #work4 {
+    grid-area: work4;
+    background-image: url("../images/02-portfolio-4.jpg");
+  }
+
+  #experience {
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "work1"
+    "work2"
+    "work3"
+    "work4"
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #contact {
+    display: grid;
+  }
+}
