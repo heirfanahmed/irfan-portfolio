@@ -18,6 +18,5 @@ Description
 Screen Shot where the irfan-portfolio needs to be close to the requested image:
 ** images/01-css-challenge-demo.gif
 
-Links to the files where the HTML and CSS files has been coded:
-** index.html - starter/index.html
-** style.css - starter/css/style.css
+Link to deployed application:
+** https://heirfanahmed.github.io/irfan-portfolio/
